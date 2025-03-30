@@ -1,0 +1,51 @@
+# Файлы и директории CLion
+.idea/
+cmake-build-*/
+cmake-build/
+*.iws
+
+# Сгенерированные файлы CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Временные файлы сборки
+*.o
+*.a
+*.la
+*.lo
+*.so
+*.dylib
+*.mod
+
+# Исполняемые файлы
+bin/
+lib/
+build/
+out/
+
+# Файлы отладки и тестирования
+*.out
+*.exe
+*.gcno
+*.gcda
+*.ilk
+*.pdb
+*.suo
+*.user
+
+# Локальные настройки
+*.local
+
+# Резервные копии
+*~
+*.bak
+*.swp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
